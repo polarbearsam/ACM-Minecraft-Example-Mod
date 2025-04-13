@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[49,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "acmexamplemod"
+version = "${version}"
+displayName = "ACM Example Mod"
+authors = "Me!"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
+#logoFile = ""
+
+[[dependencies.acmexamplemod]]
+modId = "forge"
+mandatory = true
+versionRange = "[49,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.acmexamplemod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.acmexamplemod]]
+modId = "architectury"
+mandatory = true
+versionRange = "[11.1.17,)"
+ordering = "AFTER"
+side = "BOTH"
