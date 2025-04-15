@@ -2,13 +2,13 @@
   "schema_version": 1,
   "quilt_loader": {
     "group": "${group}",
-    "id": "acmexamplemod",
+    "id": "${mod_id}",
     "version": "${version}",
     "metadata": {
-      "name": "ACM Example Mod",
-      "description": "This is an example description! Tell everyone what your mod is about!",
+      "name": "${mod_name}",
+      "description": "${description}",
       "contributors": {
-        "Me!": "Author"
+        "${authors}": "Author"
       },
       "icon": "assets/acmexamplemod/icon.png"
     },
@@ -29,11 +29,11 @@
       },
       {
         "id": "minecraft",
-        "version": ">=1.20.4"
+        "version": "${minecraft_version}"
       },
       {
         "id": "architectury",
-        "version": ">=11.1.17"
+        "version": "${architectury_version}"
       }
     ]
   }

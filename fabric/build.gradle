@@ -38,10 +38,23 @@ dependencies {
 }
 
 processResources {
-    inputs.property 'version', project.version
+    //inputs.property 'version', project.version // This doesn't seem to be needed.
 
+    // Automatically fills out the fabric.mod.json file with common properties set in gradle.properties.
     filesMatching('fabric.mod.json') {
-        expand version: project.version
+        expand version: project.version,
+                architectury_version: architectury_api_version_range_json,
+                authors: mod_authors,
+                description: mod_description,
+                fabric_loader_version: fabric_loader_version_range,
+                issues: issues,
+                java_version: java_version_range,
+                license: mod_license,
+                minecraft_version: minecraft_version_range_json,
+                homepage: homepage,
+                mod_id: mod_id,
+                mod_name: mod_name,
+                sources: sources
     }
 }
 

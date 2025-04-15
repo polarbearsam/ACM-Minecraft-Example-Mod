@@ -20,7 +20,7 @@ subprojects {
 
     base {
         // Set up a suffixed format for the mod jar names, e.g. `example-fabric`.
-        archivesName = "$rootProject.archives_name-$project.name"
+        archivesName = "$rootProject.mod_id-$project.name"
     }
 
     repositories {
@@ -31,13 +31,17 @@ subprojects {
         // for more information about repositories.
     }
 
+    /*
+    //Silences the warning about Mojang's Official Mappings. This is disabled so you are aware of the risks, but may be
+    enabled to stop the warning from appearing.
     loom {
         silentMojangMappingsLicense()
     }
+     */
 
     dependencies {
         minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
-        mappings loom.officialMojangMappings()
+        mappings loom.officialMojangMappings() // If desired, this can be changed to Yarn mappings.
     }
 
     java {
@@ -46,12 +50,13 @@ subprojects {
         // If you remove this line, sources will not be generated.
         withSourcesJar()
 
+        // These must be updated when the Minecraft Java version changes!
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
 
     tasks.withType(JavaCompile).configureEach {
-        it.options.release = 17
+        it.options.release = 17 // This must be updated when the Minecraft Java version changes!
     }
 
     // Configure Maven publishing.

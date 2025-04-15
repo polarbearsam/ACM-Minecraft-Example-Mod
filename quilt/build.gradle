@@ -50,7 +50,14 @@ processResources {
     inputs.property 'version', project.version
 
     filesMatching('quilt.mod.json') {
-        expand group: project.group, version: project.version
+        expand group: project.group, version: project.version,
+                architectury_version: architectury_api_version_range_json,
+                authors: mod_authors,
+                description: mod_description,
+                minecraft_version: minecraft_version_range_json,
+                mod_id: mod_id,
+                mod_name: mod_name
+
     }
 }
 

@@ -38,7 +38,18 @@ processResources {
     inputs.property 'version', project.version
 
     filesMatching('META-INF/mods.toml') {
-        expand version: project.version
+        expand version: project.version,
+                architectury_version: architectury_api_version_range_toml,
+                authors: mod_authors,
+                description: mod_description,
+                forge_version: forge_version_range,
+                homepage: homepage,
+                issues: issues,
+                license: mod_license,
+                minecraft_version: minecraft_version_range_toml,
+                mod_id: mod_id,
+                mod_name: mod_name,
+                update: updateJSON
     }
 }
 
