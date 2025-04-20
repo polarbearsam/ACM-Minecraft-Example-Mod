@@ -67,6 +67,9 @@ this file.
 The other files and folders shouldn't need to be changed. Note that the "images" directory, "README.md", and
 "UNLICENSE.txt" are not directly related to the mod or project configuration and can be safely deleted if desired.
 ## Developing the Mod
+Before you start developing your mod, make sure to run the `genSources` task under "Tasks" > "loom". This downloads
+Minecraft's source code so that you can view the code and your IDE knows what functions your code can override.
+
 This section will be covered during the meeting. However, if you need some additional help, here's links to important
 documentation on how to create a mod. It's recommended to try to get your mod working on Fabric before moving on to the
 other mod loaders. There are also many YouTube tutorials, but it's recommended to find one which utilizes Architectury.
@@ -108,6 +111,13 @@ section above.
 4. If that still doesn't correct the issue, you'll have to seek further advice on how to fix the problem. If you can't find
 anything else online, the [Architectury Discord server](https://discord.gg/C2RdJDpRBP) is a great place to ask for help
 or look to see if anyone else has had the same problem.
+### Certain Overridden Functions Are Underlined Red
+One common problem that can occur is that when overriding certain functions, particularly those overriding Minecraft's
+code, can show as non-existent in your IDE. This problem is caused by the IDE not having downloaded the Minecraft source
+code.
+To fix this issue, simply run the `genSources` task under "Tasks" > "loom". This Gradle task automatically downloads all
+the Minecraft source code. Once this task is performed, the problem should be resolved. If it is not resolved, it's likely
+a separate problem exists.
 ### Unknown Warnings
 Unless Minecraft fails to launch or your mod is missing from the game, you should be able to safely ignore these warnings.
 Note: By default, this mod adds nothing to the game. That's what you're here to learn how to do!
