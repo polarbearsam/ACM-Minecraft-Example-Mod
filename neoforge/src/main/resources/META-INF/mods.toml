@@ -9,11 +9,9 @@ version = "${version}"
 displayName = "${mod_name}"
 updateJSONURL = "${update}" #optional
 displayURL = "${homepage}" #optional
-authors = "${authors}"
-description = '''
-${description}
-'''
-#logoFile = ""
+logoFile = "assets/acmexamplemod/icon.png" #optional
+authors = "${authors}" #optional
+description = '''${description}'''
 
 [[dependencies.${mod_id}]]
 modId = "neoforge"

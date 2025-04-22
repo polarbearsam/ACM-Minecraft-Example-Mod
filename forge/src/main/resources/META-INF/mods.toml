@@ -9,11 +9,9 @@ version = "${version}"
 displayName = "${mod_name}"
 updateJSONURL= "${update}" #optional
 displayURL = "${homepage}" #optional
+logoFile = "assets/acmexamplemod/icon.png" #optional
 authors = "${authors}" #optional
-description = '''
-${description}
-'''
-#logoFile = ""
+description = '''${description}'''
 
 [[dependencies.${mod_id}]]
 modId = "forge"

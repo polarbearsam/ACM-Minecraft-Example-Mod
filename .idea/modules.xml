@@ -5,16 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/acmexamplemod.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/acmexamplemod.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/acmexamplemod.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/acmexamplemod.common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/acmexamplemod.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/acmexamplemod.common.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/acmexamplemod.fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/acmexamplemod.fabric.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/acmexamplemod.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/acmexamplemod.fabric.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/acmexamplemod.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/acmexamplemod.fabric.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/acmexamplemod.forge.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/acmexamplemod.forge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/acmexamplemod.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/acmexamplemod.forge.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/acmexamplemod.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/acmexamplemod.forge.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/acmexamplemod.neoforge.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/acmexamplemod.neoforge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/acmexamplemod.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/acmexamplemod.neoforge.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/acmexamplemod.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/acmexamplemod.neoforge.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/acmexamplemod.quilt.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/acmexamplemod.quilt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/acmexamplemod.quilt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/acmexamplemod.quilt.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/acmexamplemod.quilt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/acmexamplemod.quilt.test.iml" />
     </modules>
