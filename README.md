@@ -2,6 +2,9 @@
 This mod template is designed to help you get started making a basic Minecraft mod. This README file contains a basic
 guide to set up a development environment and test your mod.
 
+**This branch contains the finished mod with a new block added to the game. It's recommended to start with the main branch instead!**
+Use this branch if you're stuck on the main branch or want to copy a portion of the code.
+
 This template is designed to create a mod for Minecraft 1.20-1.20.4.
 ## Background Information
 Before beginning, there's a few things that are important that you know. Unlike many modern games, Minecraft lacks
@@ -70,6 +73,8 @@ The other files and folders shouldn't need to be changed. Note that the "images"
 This section will be covered during the meeting. However, if you need some additional help, here's links to important
 documentation on how to create a mod. It's recommended to try to get your mod working on Fabric before moving on to the
 other mod loaders. There are also many YouTube tutorials, but it's recommended to find one which utilizes Architectury.
+
+**This branch contains finished code for developing the mod, so this step has effectively been skipped.**
 
 Documentation:
 - [Architectury API](https://docs.architectury.dev/api/introduction) (Recommended to Start Here, make sure to read the
